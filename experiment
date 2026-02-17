@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Student Profile Cards</title> 
+    <link rel="stylesheet" href="Experiment8.css"> 
+</head> 
+ 
+<body> 
+ 
+    <div class="container"> 
+        <!-- Card 1 --> 
+        <div class="card"> 
+            <div class="avatar">JK</div> 
+            <h3>akash</h3> 
+            <p class="course">B.Tech - CSE</p> 
+            <p class="roll">Roll No: 21CS1007</p> 
+            <p class="year">1st Year</p> 
+        </div> 
+ 
+        <!-- Card 2 --> 
+        <div class="card"> 
+            <div class="avatar">AR</div> 
+            <h3>Asha Rani</h3> 
+            <p class="course">B.Tech - IT</p> 
+            <p class="roll">Roll No: 21IT1012</p> 
+            <p class="year">1st Year</p> 
+        </div> 
+ 
+        <!-- Card 3 --> 
+        <div class="card"> 
+            <div class="avatar">RK</div> 
+            <h3>Rohit Kumar</h3> 
+            <p class="course">B.Tech - ECE</p> 
+            <p class="roll">Roll No: 21EC1009</p> 
+            <p class="year">1st Year</p> 
+        </div> 
+    </div> 
+ 
+</body> 
+ 
+</html> 
+ 
+ 
+CSS 
+ 
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+} 
+ 
+.container { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px; 
+    background-color: white; 
+} 
+ 
+.card { 
+    background: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px black; 
+    padding: 20px; 
+    text-align: center; 
+    width: 180px; 
+    border: 1px solid white; 
+} 
+ 
+.avatar { 
+    width: 60px; 
+    height: 60px; 
+    background-color: #007bff; 
+    color: white; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto 15px; 
+    font-size: 18px; 
+} 
+ 
+h3 { 
+    margin: 10px 0 5px; 
+    font-size: 16px; 
+    color: #333; 
+} 
+ 
+p { 
+margin: 3px 0; 
+font-size: 12px; 
+color: #666; 
+} 
+.course { 
+font-weight: bold;
+color:#5555;
+}
